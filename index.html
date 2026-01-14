@@ -1,14 +1,27 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="./fonts/enathica/Enathica Demo.ttf">
     </head>
     <body>
         <div class="container">
-            <div>
+            <div class="home">
                 <h3>HOME</h3>
+                 <div class="score home_score">0</div>
+                 <div class="btns">
+                            <button id="add1Point" onclick="add1Point()">+ 1</button>
+                     <button id="add2Points" onclick="add2Points()">+ 2</button>
+                     <button id="add3Points" onclick="add3Points()">+ 3</button>
+                 </div>
             </div>
-            <div>
+            <div class="guest">
                 <h3>GUEST</h3>
+                <div class="score guest_score">0</div>
+                 <div class="btns">
+                     <button id="add1Point" onclick="add1Point()">+ 1</button>
+                     <button id="add2Points" onclick="add2Points()">+ 2</button>
+                     <button id="add3Points" onclick="add3Points()">+ 3</button>
+                 </div>
             </div>
         </div>
         <script src="index.js"></script>
